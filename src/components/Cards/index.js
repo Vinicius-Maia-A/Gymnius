@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
-export default function Banner() {
+export default function Cards() {
     return(
-        <StyledBanner> 
-        </StyledBanner>
+        <StyledCards> 
+        </StyledCards>
     )
 }
 
-export const StyledBanner = styled.div`
+export const StyledCards = styled.div`
+    grid-area: cards;
     margin: 0px;
     display: block;
     height: 300px;

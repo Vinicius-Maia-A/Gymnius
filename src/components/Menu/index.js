@@ -14,7 +14,7 @@ export default function Menu () {
                 alignItems:"center"
             }}>
                 <p style={{
-                fontSize:"15px"
+                    fontSize:"15px"
                 }}>
                     <>Sobre</>
                 </p>

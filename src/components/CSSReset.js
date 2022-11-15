@@ -10,7 +10,6 @@ export const CSSReset = createGlobalStyle`
   body {
     font-family: sans-serif;
     background-color: black;
-  
   }
   /* NextJS */
   html {
