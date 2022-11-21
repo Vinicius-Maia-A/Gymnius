@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledMenu = styled.header`
+    position: sticky;
     display: flex;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 10%);
     /* box-shadow: 0 0 10px ${({ theme }) => theme.logoBackgroundColor}; */
@@ -10,17 +11,13 @@ export const StyledMenu = styled.header`
     background-color: black;
     color: white;
     align-items: center;
-    grid-row: 1 / 2;
-    grid-column: 1 / 3;
-    /* height: 75px; */
-    /* position: fixed; */
-    /* width: 100vw; */
+    grid-row: 1;
+    grid-column: 1 / 3;  
 `;
 
 export const StyledLogo = styled.div`
     /* background-color: ${({ theme }) => theme.logoBackgroundColor}; */
     display: flex;
-
     background-color: black; 
     background-image: url('');
     background-size: cover;

@@ -3,76 +3,61 @@ import Main from '../src/components/Main'
 import { CSSReset } from '../src/components/CSSReset'
 import Cards  from '../src/components/Cards'
 import styled from 'styled-components'
-
 import { motion } from 'framer-motion'
-import config from '../config.json'
+import { useState } from 'react'
+// import config from '../config.json'
 
-function Home () {
+function HomePage () {
 
+    const [currentJourney, setCurrentJourney] = useState([])
+    const [visibleJourney, setVisibleJourney] = useState(false)
+    
     return (
         <>
             <CSSReset />
-            <StyledContainer> 
+            <StyledGrid> 
                 <Menu />
-                <StyledBanner className="banner" > 
-                    <h2>Fazer o Banner</h2>
-                </StyledBanner>
-                <Main />
-                {/* <StyledMain > 
-                    <Carousel carousel={config.carousel} />
-                </StyledMain> */}
-                {/* div .app */}
-                <aside>Cards</aside>
-            </StyledContainer>
+                <Banner /> 
+                <Main setCurrentJourney={setCurrentJourney} />
+                <Cards currentJourney={currentJourney} />
+            </StyledGrid>
         </>
     )
 }
 
-
-function Carousel(props) {
-    const carouselNames = Object.keys(props.carousel)
+function Banner() {
     return(
-        <motion.StyledDivCarousel>
-            {carouselNames.map( carouselName => {
-                const itens = props.carousel[carouselName]
-
-                return(
-                    <motion.StyledDivInner>
-
-                        {itens.map( journey => {
-                            return(
-                                <motion.div>
-                                    <img src={journey.image} />
-                                </motion.div>
-                            )
-                        })}
-                        
-                    </motion.StyledDivInner>
-                )
-            })}
-        </motion.StyledDivCarousel>
+        <StyledBanner className="banner" > 
+            <h2>Escolha sua jornada <br />fitness <br />
+                {/* <motion.hr 
+                initial={{ x: -200 }}
+                animate={{ x: 0 }}
+                transition={{ duration: 0.8 }}/> */}
+            </h2>
+        </StyledBanner>
     )
 }
 
+
 const StyledBanner = styled.div`
-   
+    display: flex;
+    width: 100%;
+    margin-left: 35px;
+    align-items: center;
+    font-size: 45px;
+    color: white;
+   /* background-color: red; */
 `
-const StyledContainer = styled.div`
+const StyledGrid = styled.div`
     display: grid;
-    grid-template-rows: 0.8fr 1.6fr 7fr;   
+    grid-template-rows: 0.1fr 0.1fr 0.8fr;   
     grid-template-columns: 2fr 1fr;
     color: black;
-    background-color: aquamarine; 
-    height: 100%;
+    height: 100hv;
     width: 100vw;
     
-    main {
-        /* background-color: black; */
-        grid-row: 3;
-        grid-column: 1;
-    }
     aside {
-        background-color: green;
+        background-color: red;
         grid-row: 2 / 4;
         grid-column: 2;
     }
@@ -82,5 +67,5 @@ const StyledContainer = styled.div`
         grid-column: 1;
     }
 `
-export default Home
+export default HomePage
 
