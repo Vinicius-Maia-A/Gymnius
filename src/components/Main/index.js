@@ -69,37 +69,39 @@ function Carousel( { setCurrentJourney, ...props} ) {
                                         setJourney(journey.exercises)
                                     }} 
                                 >
-                                    <div style={{
-                                        display: 'flex',
-                                        backgroundImage: `url("${journey.image}")`,
-                                        backgroundPosition: 'center',
-                                        // minWidth: '80%',
-                                        height: '450px',
-                                        borderRadius: '14px',
-                                        pointerEvents: 'none',
-                                        alignItems: 'end',
-                                        justifyContent: 'center',
-                                        // backgroundColor: 'red'
-                                        }}
-                                        //add um hoverOver effect
-                                        // onMouseEnter
-                                        // onMouseLeave
-                                        >
+                                    <a>
                                         <div style={{
-                                            color: 'white',
-                                            backgroundColor: 'black',
-                                            margin: '15px',
-                                            borderRadius: '10px',
-                                            width: '80%',
-                                            textAlign: 'center',
-                                            padding: '3px 0 3px 0'
-                                        }}> 
-                                            <h3>
-                                                {journey.name}
-                                            </h3>
+                                            display: 'flex',
+                                            backgroundImage: `url("${journey.image}")`,
+                                            backgroundPosition: 'center',
+                                            // minWidth: '80%',
+                                            height: '450px',
+                                            borderRadius: '14px',
+                                            pointerEvents: 'none',
+                                            alignItems: 'end',
+                                            justifyContent: 'center',
+                                            // backgroundColor: 'red'
+                                            }}
+                                            //add um hoverOver effect
+                                            // onMouseEnter
+                                            // onMouseLeave
+                                            >
+                                            <div style={{
+                                                color: 'white',
+                                                backgroundColor: 'black',
+                                                margin: '15px',
+                                                borderRadius: '10px',
+                                                width: '80%',
+                                                textAlign: 'center',
+                                                padding: '3px 0 3px 0'
+                                            }}> 
+                                                <h3>
+                                                    {journey.name}
+                                                </h3>
+                                            </div>
+                                            
                                         </div>
-                                        
-                                    </div>
+                                    </a>
 
 
                                 </motion.div>

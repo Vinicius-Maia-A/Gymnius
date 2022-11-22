@@ -40,7 +40,7 @@ function Banner() {
 
 
 const StyledBanner = styled.div`
-    display: flex;
+    display: block;
     width: 100%;
     margin-left: 35px;
     align-items: center;
@@ -48,9 +48,10 @@ const StyledBanner = styled.div`
     color: white;
    /* background-color: red; */
 `
+
 const StyledGrid = styled.div`
     display: grid;
-    grid-template-rows: 0.1fr 0.1fr 0.8fr;   
+    grid-template-rows: 75px 0.1fr 0.8fr;   
     grid-template-columns: 2fr 1fr;
     color: black;
     height: 100hv;

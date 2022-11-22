@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledMenu = styled.header`
     position: sticky;
     display: flex;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 10%);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 30%);
     /* box-shadow: 0 0 10px ${({ theme }) => theme.logoBackgroundColor}; */
     justify-content: space-between;
     padding-left: 30px;

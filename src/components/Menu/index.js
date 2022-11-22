@@ -3,6 +3,7 @@ import { StyledLogo, StyledMenu } from './styles'
 
 export default function Menu () {
     return (
+       
         <StyledMenu>
             <StyledLogo>
                 <span>Gymnius</span>
