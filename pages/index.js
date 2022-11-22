@@ -3,15 +3,17 @@ import Main from '../src/components/Main'
 import { CSSReset } from '../src/components/CSSReset'
 import Cards  from '../src/components/Cards'
 import styled from 'styled-components'
-import { motion } from 'framer-motion'
+import ModalExercise, { MOdalExercise } from '../src/components/ModalExercise'
 import { useState } from 'react'
+
 // import config from '../config.json'
 
 function HomePage () {
-
-    const [currentJourney, setCurrentJourney] = useState([])
-    const [visibleJourney, setVisibleJourney] = useState(false)
     
+    const [currentJourney, setCurrentJourney] = useState([])
+    const [isModalVisible, setIsModalVisible] = useState(false)
+    const[currentExercise,setCurrentExercise] = useState()
+
     return (
         <>
             <CSSReset />
@@ -19,8 +21,16 @@ function HomePage () {
                 <Menu />
                 <Banner /> 
                 <Main setCurrentJourney={setCurrentJourney} />
-                <Cards currentJourney={currentJourney} />
+                <Cards currentJourney={currentJourney} setIsModalVisible={setIsModalVisible} setCurrentExercise={setCurrentExercise} />
             </StyledGrid>
+            <div className='modal'>
+                <button type='button' onClick={() => setIsModalVisible(true)}>BUTTON</button>
+                {isModalVisible ? 
+                    <ModalExercise>
+                        <h2>{currentExercise.name}</h2>
+                    </ModalExercise> 
+                : null}
+            </div>
         </>
     )
 }

@@ -1,17 +1,19 @@
 import { StyledCards, StyledCard, OutterStyledDiv } from './styles'
 
 
-export default function Cards({ currentJourney }) {
+export default function Cards({ currentJourney, setIsModalVisible, setCurrentExercise }) {
 
     const currentExercise = currentJourney
     return (
         <StyledCards> 
-            { currentExercise ? <ScrollElem exerciseVet={currentJourney} /> : null }
+            { currentExercise ? 
+            <ScrollElem exerciseVet={currentJourney} setIsModalVisible={setIsModalVisible} setCurrentExercise={setCurrentExercise} /> 
+            : null }
         </StyledCards> 
     )
 }
 
-function ScrollElem ( { exerciseVet } ) {
+function ScrollElem ( { exerciseVet, setIsModalVisible, setCurrentExercise } ) {
 
     return(
         <OutterStyledDiv>
@@ -20,15 +22,20 @@ function ScrollElem ( { exerciseVet } ) {
             >
                 {exerciseVet.map( exercise => {
                     return (
-                        <a href='../../../testePag'>
-                        <StyledCard key={exercise.name} >
-                            <div style={{ textAlign: 'center', width: '100%' }}>
-                                <div style={{ backgroundColor:'white', padding:'3px 0 3px 0' }}>
-                                    <h3 style={{color: 'black'}}>{exercise.name}</h3>
+                        <a>
+                            <StyledCard 
+                            key={exercise.name} 
+                            onClick={() => {
+                                setIsModalVisible(true)
+                                setCurrentExercise(exercise)
+                            }}
+                            >
+                                <div style={{ textAlign: 'center', width: '100%' }}>
+                                    <div style={{ backgroundColor:'white', padding:'3px 0 3px 0' }}>
+                                        <h3 style={{color: 'black'}}>{exercise.name}</h3>
+                                    </div>
                                 </div>
-                            </div>
-                        </StyledCard>
-
+                            </StyledCard>
                         </a>
                     )
                 })}
