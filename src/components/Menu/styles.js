@@ -8,11 +8,21 @@ export const StyledMenu = styled.header`
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: black;
+    background-color: none;
     color: white;
     align-items: center;
     grid-row: 1;
     grid-column: 1 / 3;  
+
+    a{
+        cursor: pointer;
+        :visited {
+            color:white;
+        }
+        :link {
+            color: white;
+        }
+    }
 `;
 
 export const StyledLogo = styled.div`

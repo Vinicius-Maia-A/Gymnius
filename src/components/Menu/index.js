@@ -14,12 +14,12 @@ export default function Menu () {
                 width: "130px",
                 alignItems:"center"
             }}>
-                <p style={{
-                    fontSize:"15px"
-                }}>
-                    <>Sobre</>
-                </p>
-                <DarkModeSwitch />
+                
+                <a href='../../../about'>
+                    <h3>Sobre</h3>
+                </a>
+                
+                {/* <DarkModeSwitch /> */}
             </div>
         </StyledMenu>
     )

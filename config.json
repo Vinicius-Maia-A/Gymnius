@@ -2,18 +2,18 @@
     "carousel": {
         "journeys": [
             {
-                "name": "Musculação",
+                "name": "Peito",
                 "image": "https://images.unsplash.com/photo-1618169480981-ddb08182cfa8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZHVtYmJlbGxzfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60",
                 "exercises": [
                     {
-                        "name": "exercise name aaaaaaaaaaaaaa1",
-                        "description": "description musculação 1",
-                        "video": "video musulação 1"
+                        "name": "flexão de braço",
+                        "description": "description ",
+                        "video": "0"
                     },
                     {
                         "name": "exercise name 2",
                         "description": "description musculação 2",
-                        "video": "video musulação 2"
+                        "video": "//gifs.com/embed/lying-side-hip-raises-gJPBKl"
                     },
                     {
                         "name": "exercise name 3",
@@ -43,7 +43,7 @@
                 ]
             },
             {
-                "name": "Spinning",
+                "name": "Tríceps",
                 "image": "https://images.unsplash.com/photo-1521404495898-64de72eda993?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3Bpbm5pbmd8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
                 "exercises": [
                     {
@@ -64,7 +64,7 @@
                 ]
             },
             {
-                "name": "Yoga",
+                "name": "Costas",
                 "image": "https://images.unsplash.com/photo-1591343395902-1adcb454c4e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHlvZ2F8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
                 "exercises": [
                     {
@@ -85,7 +85,7 @@
                 ]
             },
             {
-                "name": "teste",
+                "name": "Biceps",
                 "image": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zml0bmVzc3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60",
                 "exercises": [
                     {
@@ -104,9 +104,30 @@
                         "video": "video Yoga 3"
                     }
                 ]
+            },
+            {
+                "name": "Abs",
+                "image": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zml0bmVzc3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60",
+                "exercises": [
+                    {
+                        "name": "teste name 4",
+                        "description": "description Yoga 1",
+                        "video": "video Yoga 1"
+                    },
+                    {
+                        "name": "teste name 5",
+                        "description": "description Yoga 2",
+                        "video": "video Yoga 2"
+                    },
+                    {
+                        "name": "teste name 63",
+                        "description": "description Yoga 3",
+                        "video": "video Yoga 3"
+                    }
+                ]
             }
             
-        ],
-        "chave2": []
+        ]
+        
     }
 }

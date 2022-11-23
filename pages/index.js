@@ -1,19 +1,22 @@
+import { useState } from 'react'
+import { CSSReset } from '../src/components/CSSReset'
+import styled from 'styled-components'
 import Menu from '../src/components/Menu'
 import Main from '../src/components/Main'
-import { CSSReset } from '../src/components/CSSReset'
 import Cards  from '../src/components/Cards'
-import styled from 'styled-components'
 import ModalExercise, { MOdalExercise } from '../src/components/ModalExercise'
-import { useState } from 'react'
-
-// import config from '../config.json'
+import '../node_modules/video-react/dist/video-react.css';
+import video0 from '../src/assets/sion.mp4'
+import { Player } from 'video-react';
 
 function HomePage () {
-    
-    const [currentJourney, setCurrentJourney] = useState([])
-    const [isModalVisible, setIsModalVisible] = useState(false)
-    const[currentExercise,setCurrentExercise] = useState()
 
+    const videoArray = [video0]
+
+    const [currentJourney, setCurrentJourney] = useState()
+    const[currentExercise,setCurrentExercise] = useState()
+    const [isModalVisible, setIsModalVisible] = useState(false)
+    
     return (
         <>
             <CSSReset />
@@ -24,10 +27,37 @@ function HomePage () {
                 <Cards currentJourney={currentJourney} setIsModalVisible={setIsModalVisible} setCurrentExercise={setCurrentExercise} />
             </StyledGrid>
             <div className='modal'>
-                <button type='button' onClick={() => setIsModalVisible(true)}>BUTTON</button>
                 {isModalVisible ? 
-                    <ModalExercise>
-                        <h2>{currentExercise.name}</h2>
+                    <ModalExercise setIsModalVisible={setIsModalVisible}>
+                        
+                        {/* NOME DO EXERCICIO E HR */}
+                        <div className='exercise-name'>
+                            <h2>{currentExercise.name}</h2>
+                            <hr className='linha' />
+                        </div>
+                        {/* CONTEUDO DO EXERCICIO */}
+                        
+                        <div className='content'>
+                            <div className='video-container'>
+                                <Player
+                                    
+                                    fluid={false}
+                                    autoPlay
+                                    loop
+                                    muted
+                                    playsInline
+                                src={videoArray[currentExercise.video]}
+                                    />                                
+                            </div>
+                            <div className='description'>
+                                <h2>{currentExercise.description}</h2>
+                                <hr />
+                                <h3>{currentExercise.instructions}</h3>
+                                
+                            </div>
+                        </div>
+                        
+                        
                     </ModalExercise> 
                 : null}
             </div>
@@ -66,12 +96,7 @@ const StyledGrid = styled.div`
     color: black;
     height: 100hv;
     width: 100vw;
-    
-    aside {
-        background-color: red;
-        grid-row: 2 / 4;
-        grid-column: 2;
-    }
+   
 
     .banner {
         grid-row: 2;

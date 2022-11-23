@@ -22,12 +22,11 @@ function ScrollElem ( { exerciseVet, setIsModalVisible, setCurrentExercise } ) {
             >
                 {exerciseVet.map( exercise => {
                     return (
-                        <a>
+                        <a key={exercise.name} >
                             <StyledCard 
-                            key={exercise.name} 
                             onClick={() => {
                                 setIsModalVisible(true)
-                                setCurrentExercise(exercise)
+                                setCurrentExercise(exercise)                               
                             }}
                             >
                                 <div style={{ textAlign: 'center', width: '100%' }}>
