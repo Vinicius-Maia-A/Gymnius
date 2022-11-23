@@ -52,7 +52,10 @@ function HomePage () {
                             <div className='description'>
                                 <h2>{currentExercise.description}</h2>
                                 <hr />
-                                <h3>{currentExercise.instructions}</h3>
+                                <p><h3>{currentExercise.instructions}</h3></p>
+                                <p><h3>{currentExercise.instructions}</h3></p>
+                                <p><h3>{currentExercise.instructions}</h3></p>
+                                
                                 
                             </div>
                         </div>
@@ -78,7 +81,6 @@ function Banner() {
     )
 }
 
-
 const StyledBanner = styled.div`
     display: block;
     width: 100%;
@@ -96,7 +98,6 @@ const StyledGrid = styled.div`
     color: black;
     height: 100hv;
     width: 100vw;
-   
 
     .banner {
         grid-row: 2;

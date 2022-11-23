@@ -134,6 +134,9 @@ const Modal = styled.div`
             hr {
                 margin: 5px 8px 5px 8px;
             }
+            p {
+                margin: 8px 0 8px 0;
+            }
         }
     }
     
