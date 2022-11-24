@@ -20,7 +20,7 @@ import v7 from '../src/assets/triceps/Triceps Testa.mp4'
 
 import v8 from '../src/assets/costas/Pulley frente.mp4'
 import v9 from '../src/assets/costas/Remada cavalinho.mp4'
-import v10 from '../src/assets/costas/Remada Baixa.mp4'
+import v10 from '../src/assets/costas/Remada baixa.mp4'
 
 import v11 from '../src/assets/ombro/Desenvolvimento de ombro com halteres.mp4'
 import v12 from '../src/assets/ombro/Remada alta com barra.mp4'
