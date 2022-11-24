@@ -73,18 +73,16 @@ function Carousel( { setCurrentJourney, ...props} ) {
                                         <div style={{
                                             display: 'flex',
                                             backgroundImage: `url("${journey.image}")`,
+                                            backgroundSize: 'cover',
                                             backgroundPosition: 'center',
-                                            // minWidth: '80%',
                                             height: '450px',
                                             borderRadius: '14px',
                                             pointerEvents: 'none',
                                             alignItems: 'end',
                                             justifyContent: 'center',
+                                            // minWidth: '80%',
                                             // backgroundColor: 'red'
                                             }}
-                                            //add um hoverOver effect
-                                            // onMouseEnter
-                                            // onMouseLeave
                                             >
                                             <div style={{
                                                 color: 'white',

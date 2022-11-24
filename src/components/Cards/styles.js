@@ -10,6 +10,9 @@ export const StyledCards = styled.div`
     margin: 10px 0;
     align-items: center;
     justify-content: center;
+    a {
+        cursor: pointer;
+    }
     /* background-color: red; */
     `
 export const StyledCard = styled.div`

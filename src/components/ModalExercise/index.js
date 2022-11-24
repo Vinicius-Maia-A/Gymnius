@@ -134,8 +134,24 @@ const Modal = styled.div`
             hr {
                 margin: 5px 8px 5px 8px;
             }
-            p {
-                margin: 8px 0 8px 0;
+            .text {
+                width: 100%;
+
+                .title {
+                    padding: 5px 40px;
+                    font-size: 12px;
+                }
+                .instructions {
+                    font-size: 12px;
+                    font-weight: normal;
+                    margin: 20px auto 30px auto;
+                    padding: 0 100px;                
+                    text-align: left;
+                    line-height: 30px;
+                    p {
+                        margin: 15px 0;
+                    }
+                }
             }
         }
     }

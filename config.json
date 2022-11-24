@@ -2,133 +2,165 @@
     "carousel": {
         "journeys": [
             {
-                "name": "Peito",
-                "image": "https://images.unsplash.com/photo-1618169480981-ddb08182cfa8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZHVtYmJlbGxzfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+                "name": "Peito ",
+                "image": " https://homemnoespelho.com.br/wp-content/uploads/2017/03/Homem-No-Espelho-Treino-de-peito-academia-12.jpg",
                 "exercises": [
                     {
-                        "name": "flexão de braço",
-                        "description": "description ",
-                        "instructions" : "1. instructions aaaaaaaaaaaaaa a a a a a",
-                        "video": "0"
+                        "name": " Supino reto",
+                        "video": "0",
+                        "description": " Supino é um exercício multiarticular, ou seja, que envolve várias articulações, e tem como ênfase o trabalho do músculo peitoral maior.",
+                        "instruction1": " O supino reto consiste essencialmente em uma flexão de ombro horizontal seguida por uma extensão de cotovelo os movimentos são potencializados de acordo com a carga na barra. "
                     },
                     {
-                        "name": "exercise name 2",
-                        "description": "description musculação 2",
-                        "video": "//gifs.com/embed/lying-side-hip-raises-gJPBKl"
+                        "name": "Supino 45",
+                        "video": "1",
+                        "description": " O supino 45 é um exercício feito para desenvolver a porção superior do peitoral.",
+                        "instruction1": " - Quanto maior a inclinação do banco durante o supino inclinado, maior será o recrutamento do deltoide anterior e menor o recrutamento da porção superior do peitoral.",
+                        "instruction2": " - Para aumentar a eficiência do exercício e minimizar este risco, é recomendado utilizar uma angulação com no mínimo 30 graus e no máximo 45."
                     },
                     {
-                        "name": "exercise name 3",
-                        "description": "description musculação 3",
-                        "video": "video musulação 3"
+                        "name": "Voador",
+                        "video": "2",
+                        "description": " O Voador consiste em uma máquina especial com suporte para segurar as mãos dos dois lados, de modo que o exercício consiste no movimento de abre e fecha repetidas vezes, ajustando o peso de acordo com a força que o usuário irá fazer.",
+                        "instruction1": " Para realizar o exercício corretamente, precisamos retrair as escápulas (puxá-las para trás).",
+                        "instruction2": " Agora precisamos fechar os braços, mantendo elas para trás e fazendo com que o peitoral faça o maior trabalho. Nem sempre será possível deixá-las perfeitamente imóveis para trás, mas tentar mantê-las nessa possível é essencial."
                     },
                     {
-                        "name": "exercise name 4",
-                        "description": "description musculação 3",
-                        "video": "video musulação 3"
+                        "name": " Crucifixo",
+                        "video": "3",
+                        "description": " O Crucifixo, é um dos melhores exercícios com peso livre para isolar a musculatura do peitoral.",
+                        "instruction1": " Somente quando usamos a amplitude máxima de movimento, podemos recrutar o maior número de fibras possíveis. Se mais fibras estão sendo recrutadas usando sobrecarga, mais micro lesões serão geradas, mais hipertrofia muscular será estimulada e maior o seu peitoral ficará.",
+                        "instruction2": " Enquanto houver movimentação dos ombros, as escápulas deverão permanecer neutras durante o movimento."
                     },
                     {
-                        "name": "exercise name 5",
-                        "description": "description musculação 3",
-                        "video": "video musulação 3"
-                    },
-                    {
-                        "name": "exercise name 6",
-                        "description": "description musculação 3",
-                        "video": "video musulação 3"
-                    },
-                    {
-                        "name": "exercise name 7",
-                        "description": "description musculação 3",
-                        "video": "video musulação 3"
+                        "name": " Supino declinado",
+                        "video": "4",
+                        "description": " O supino declinado (ou supino canadense) é um exercício em extinção, contudo este movimento pode ser extremamente útil para desenvolver um peitoral completo.",
+                        "instruction1": " A versão declinada de supino possui uma amplitude de movimento naturalmente reduzida, ao usar halteres podemos aumentá-la por não limitarmos o caminho da carga pela barra.",
+                        "instruction2": " Cuidado com o ângulo do banco, supino declinado deverá ser feito com um ângulo de 15 a 30 graus, mais do que isso e colocaremos a articulação em uma posição não natural durante o movimento."
                     }
                 ]
             },
             {
-                "name": "Tríceps",
-                "image": "https://images.unsplash.com/photo-1521404495898-64de72eda993?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3Bpbm5pbmd8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+                "name": "Braço ",
+                "image": "https://generationiron.com/brasil/wp-content/uploads/sites/3/2018/01/triceps-treino-dicas-2-1068x534.png",
                 "exercises": [
                     {
-                        "name": "Spinning name 1",
-                        "description": "description Spinning 1",
-                        "video": "video Spinning 1"
+                        "name": "Tríceps corda",
+                        "video": "5",
+                        "description": " O tríceps corda é um exercício de musculação que trabalha o isolamento da parte de trás do braço, por meio da extensão do cotovelo, e atua em três partes do tríceps ou tríceps braquial, com a cabeça medial, longa e, principalmente, a lateral.",
+                        "instruction1": " A corda nos permite liberdade para movimentar os punhos para que a amplitude e contração sejam maiores. Para tirar proveito disso, durante a descida, experimente girar os punhos para fora enquanto tenta afastá-los um do outro, como se tenta-se esticar a corda."
                     },
                     {
-                        "name": "Spinning name 2",
-                        "description": "description Spinning 2",
-                        "video": "video Spinning 2"
+                        "name": " Tríceps coice",
+                        "video": "6",
+                        "description": " O tríceps coice é um dos exercícios para tríceps que mais geram recrutamento muscular, mas para explorar esta característica precisamos executar o movimento da maneira correta.",
+                        "instruction1": "Configure a altura da polia aproximadamente na altura do joelho. Este é o ajuste genérico ou básico, com o tempo você pode ajustar a altura ao seu nível de conforto.",
+                        "instruction2": "Fique de frente para a polia e dobre o tronco até que suas costas estejam quase paralelas ao chão. Pegue o cabo e traga o cotovelo para o lado do corpo, fixe-o neste ponto. Dobre o braço para que o cotovelo forme um ângulo de 90 graus com o antebraço.",
+                        "instruction3": "Com o cotovelo em posição fixa, contraia o tríceps para trazer a mão para trás até que o braço esteja totalmente estendido."
                     },
                     {
-                        "name": "Spinning name 3",
-                        "description": "description Spinning 3",
-                        "video": "video Spinning 3"
+                        "name": " Tríceps testa",
+                        "video": "7",
+                        "description": " O tríceps testa é um exercício de musculação que desenvolve isoladamente a parte de trás do braço, por meio da extensão do cotovelo, sendo ideal para quem procura aumentar a hipertrofia na região.",
+                        "instruction1": " Para executa-lo basta segurar a barra com o braço estendido, as mãos na mesma linha dos ombros, flexionar os cotovelos até o ângulo de 90 graus, descendo a barra um pouco acima da testa e estender o cotovelo até contrair ao máximo o tríceps.",
+                        "instruction2": "Nunca estenda completamente os braços, é comum que os braços sejam completamente estendidos ao chegar no topo do movimento, porém isto remove momentaneamente a tensão do tríceps já que quem estará sustentando a carga agora serão os ombros."
+                    },
+                    {
+                        "name": "Rosca direta",
+                        "video": "14",
+                        "description": "Este exercício trabalha os flexores do cotovelo, incluindo o bíceps braquial, braquial e braquiorradial.",
+                        "instruction1": " A rosca direta é um exercício que deve ser feito movendo a articulação do cotovelo, ocorrendo a flexão de cotovelo.  Em pé, com os pés afastados dos ombros e joelhos pouco flexionados, segure a barra com os cotovelos esticados, contraindo o bíceps com o final do movimento e o cotovelo todo flexionado."
+                    },
+                    {
+                        "name": " Rosca martelo",
+                        "video": "15",
+                        "description": "A rosca martelo é um excelente exercício para o treino de bíceps, um exercício para os bíceps braquiais, com enfoque maior no braquial e no braquiorradial.",
+                        "instruction1": " Com os antebraços em posição neutra, promove a flexão do cúbito, e devido ao posicionamento dos antebraços, atinge o braquiorradial e o braquial.",
+                        "instruction2": " É possível executar a rosca martelo usando a barra H, halteres e usando uma corda na polia."
+                    },
+                    {
+                        "name": " Rosca concentrada",
+                        "video": "16",
+                        "description": " Por ser um exercício no qual o principal movimento articular é a flexão de cotovelo, os principais músculos recrutados na rosca concentrada são bíceps braquial, braquiorradial e braquial.",
+                        "instruction1": " Para executar o mesmo, basta sentar em um banco apoiar o braço a ser treinado na parte interna da coxa e segurar o halter com a pegada supinada",
+                        "instruction2": "O movimento inicia-se com o braço estendido, e deve ser flexionado o cotovelo até a contração máxima do bíceps, levando em conta que a coluna deve permanecer em posição neutra durante o exercício."
+                    },
+                    {
+                        "name": "Desenvolvimento de ombros com halteres",
+                        "video": "11",
+                        "description": " Esse exercício trabalha deltoide anterior, deltoide lateral, tríceps trapézio e peitoral superior.",
+                        "instruction1": " Para executa-lo é necessário ser realizado com as palmas das mãos voltadas para a frente, o desenvolvimento trabalhará tanto deltoide anterior quanto lateral. ",
+                        "instruction2": "Com as palmas das mãos voltadas para dentro, o deltoide anterior trabalhará de maneira mais efetiva "
+                    },
+                    {
+                        "name": "Remada alta com barra",
+                        "video": "12",
+                        "description": " Trabalha com maior enfoque a musculatura do ombro frontal.",
+                        "instruction1": " Para executa-lo e maximizar o treino de deltoides, a pegada deve ter mantida um pouco mais aberta e sempre tenha muita atenção na postura com abdômen contraído durante o exercício.",
+                        "instruction2": "Se você sentir dor nos ombros durante o movimento, mesmo fazendo tudo da forma correta, experimente flexionar o seu trapézio mantendo as escápulas para trás durante o movimento, isso colocará seus ombros em uma posição mais segura."
+                    },
+                    {
+                        "name": " Elevação lateral",
+                        "video": "13",
+                        "description": " Esse exercício tem como objetivos a definição dos músculos, fortalecimento dos mesmos, e desenvolvimento de deltoides.",
+                        "instruction1": " Para executa-lo fique em pé, eleve os halteres acima da linha do ombro, subindo e descendo, repetindo o movimento de acordo com seu treino. "
                     }
                 ]
             },
             {
-                "name": "Costas",
-                "image": "https://images.unsplash.com/photo-1591343395902-1adcb454c4e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHlvZ2F8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+                "name": "Costas ",
+                "image": "https://musculacaoonline.com.br/wp-content/uploads/2013/12/Eleva%C3%A7%C3%A3o-na-barra-fixa-conhe%C3%A7a-o-melhor-exerc%C3%ADcio-para-as-costas-1024x683.jpg",
                 "exercises": [
                     {
-                        "name": "Yoga name 1",
-                        "description": "description Yoga 1",
-                        "video": "video Yoga 1"
+                        "name": "Pulley frente",
+                        "video": "8",
+                        "description": " O pulley frente é um exercício que atua no recrutamento das dorsais.",
+                        "instruction1": " Ajuste o banco do pulley de uma maneira que as almofadas das pernas deixem seu corpo fixo no banco (sem que a carga seja capaz de puxa-lo para cima).",
+                        "instruction2": " Normalmente, é executado sentado, puxando o pegador em direção a clavícula. Os músculos envolvidos são latíssimos do dorso, deltoide posterior, trapézio inferior e romboides."
                     },
                     {
-                        "name": "Yoga name 2",
-                        "description": "description Yoga 2",
-                        "video": "video Yoga 2"
+                        "name": " Remada cavalinho",
+                        "video": "9",
+                        "description": " A remada cavalinho é um exercício composto que recruta todos os músculos das costas, principalmente dorsal, trapézio e romboides.",
+                        "instruction1": " Segurar a barra com pegada neutra e os braços estendidos. Flexionar os cotovelos e trazer a barra em direção ao tronco, sempre mantendo os braços o mais perto possível do corpo. ",
+                        "instruction2": " Contrair o máximo os músculos das costas e depois lentamente retornar à posição inicial."
                     },
                     {
-                        "name": "Yoga name 3",
-                        "description": "description Yoga 3",
-                        "video": "video Yoga 3"
+                        "name": " Remada baixa",
+                        "video": "10",
+                        "description": " O exercício remada baixa tem como objetivo dar uma ênfase maior no músculo posterior do deltoide, assim como nos adutores de escápula.",
+                        "instruction1": "Coloque uma carga que permita que você execute o exercício com amplitude completa e que você não precise usar impulsos com o tronco para puxar a carga.",
+                        "instruction2": " Sente-se no banco com a coluna em posição vertical e neutra. Com os pés apoiados no aparelho, puxe a carga em direção ao corpo."
                     }
                 ]
             },
             {
-                "name": "Biceps",
-                "image": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zml0bmVzc3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60",
+                "name": "Abdomen ",
+                "image": " https://www.dicasdetreino.com.br/wp-content/uploads/2017/07/melhores-exerc%C3%ADcios-para-treino-de-abd%C3%B4men.jpg",
                 "exercises": [
                     {
-                        "name": "teste name 1",
-                        "description": "description Yoga 1",
-                        "video": "video Yoga 1"
+                        "name": "Abdominal infra",
+                        "video": "17",
+                        "description": "Este exercício ativará seus principais músculos abdominais, incluindo os oblíquos externos nas laterais do abdômen.",
+                        "instruction1": " Neste exercício, o tronco fica fixo e o quadril se move. Deitado de barriga para cima, com braços paralelos ao tronco, pernas elevadas e semiflexionadas, contraia o abdômen para tirar os quadris do chão e leve os pés em direção ao teto. Retorne com controle à posição inicial. "
                     },
                     {
-                        "name": "teste name 2",
-                        "description": "description Yoga 2",
-                        "video": "video Yoga 2"
+                        "name": "Prancha lateral",
+                        "video": "18",
+                        "description": " Trabalha com maior enfoque a musculatura do ombro frontal.",
+                        "instruction1": " Para executa-lo e maximizar o treino de deltoides, a pegada deve ter mantida um pouco mais aberta e sempre tenha muita atenção na postura com abdômen contraído durante o exercício.",
+                        "instruction2": "Se você sentir dor nos ombros durante o movimento, mesmo fazendo tudo da forma correta, experimente flexionar o seu trapézio mantendo as escápulas para trás durante o movimento, isso colocará seus ombros em uma posição mais segura."
                     },
                     {
-                        "name": "teste name 3",
-                        "description": "description Yoga 3",
-                        "video": "video Yoga 3"
-                    }
-                ]
-            },
-            {
-                "name": "Abs",
-                "image": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zml0bmVzc3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60",
-                "exercises": [
-                    {
-                        "name": "teste name 4",
-                        "description": "description Yoga 1",
-                        "video": "video Yoga 1"
-                    },
-                    {
-                        "name": "teste name 5",
-                        "description": "description Yoga 2",
-                        "video": "video Yoga 2"
-                    },
-                    {
-                        "name": "teste name 63",
-                        "description": "description Yoga 3",
-                        "video": "video Yoga 3"
+                        "name": " Prancha",
+                        "video": "19",
+                        "description": " A prancha abdominal é considerada um exercício isométrico para fortalecer o core isto é, o centro do nosso corpo e os músculos para vertebrais e estabilizadores. ",
+                        "instruction1": " Para executa-lo basta ficar de barriga para baixo, deixe os antebraços apoiados no chão e os cotovelos alinhados com os ombros. Estenda as pernas e afaste os pés na largura do quadril. ",
+                        "instruction2": " Eleve o tronco do chão, formando uma linha reta com o corpo. Cuide para manter abdome e os glúteos acionados o tempo todo. Fique parado nessa posição pelo tempo indicado."
                     }
                 ]
             }
-            
         ]
-        
     }
 }
